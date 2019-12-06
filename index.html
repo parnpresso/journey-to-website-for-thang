@@ -1,63 +1,88 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-
-    <style>
-        body {
-            margin: 0;
-        }
-        header {
-            background-color: red;
-            height: 100px;
-            width: 100%;
-        }
-        .side {
-            background-color: blue;
-            height: 1000px;
-            width: 200px;
-        }
-        .content {
-            display: flex;
-        }
-        .article {
-            background-color: coral;
-            display: flex;
-            width: 100%;
-        }
-        .box {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-
-        }
-        .box1 {
-            background-color: darkgreen;
-        }
-        .box2 {
-            background-color: darkorchid;
-        }
-    </style>
+    <title>Game Store: Index</title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <div>logo</div>
+        <div class="mid-bar">
+            <img class="logo" src="https://www.maxpixel.net/static/photo/1x/Controller-Gamepad-Icon-Computer-Game-Video-Games-1784573.png" alt="">
+            <div>Game Store</div>
+        </div>
+        <div class="side-bar">
+            <div>Main</div>
+            <div>Profile</div>
+            <div>Cart</div>
+        </div>
     </header>
     <main class="content">
-        <div class="side">sidebar</div>
+        <div class="side">
+            <div>Game</div>
+            <ul>
+                <li><a>Hot</a></li>
+                <li><a>Recent</a></li>
+                <li><a>Cooming soon</a></li>
+                <li><a>Genre</a></li>
+                <ul>
+                    <li><a>- Actions</a></li>
+                    <li><a>- Aventure</a></li>
+                    <li><a>- RPG</a></li>
+                    <li><a>- Simulation</a></li>
+                    <li><a>- Strategy</a></li>
+                    <li><a>- Sports</a></li>
+                    <li><a>- Others</a></li>  
+                </ul>
+                <li><a>Price</a></li>
+                <ul>
+                    <li><a>- 0$-25$</a></li>
+                    <li><a>- 25$-50$</a></li>
+                    <li><a>- 50$-100$</a></li>
+                    <li><a>- 100$+</a></li>  
+                </ul>
+                <li><a>Sale</a></li>
+
+            </ul>
+        </div>
         <div class="article">
             <div class="box box1">
-                <img src="" alt="">
-                <div>box1</div>
+                <img src="https://gamefever.co/wp-content/uploads/2019/08/60c724a052275a049d857d53957dc38e9347742f52372bb956d992b43efa8fb5_product_card_v2_mobile_slider_639.jpg" alt="">
+                <div>
+                    <a class="name">The Witcher 3: Wild Hunt PC</a>
+                    <a>Genre: RPG</a>
+                    <a>Release: 19 May 2015</a>
+                    <a>Price: $14.67</a>
+                    <button href="" class="button">View</butto>
+                </div>
             </div>
             <div class="box box2">
+                <img src="https://steamcdn-a.akamaihd.net/steam/subs/199943/capsule_616x353.jpg?t=1510163765" alt="">
+                <div><a class="name">Fallout 4</a>
+                    <a>Genre: </a>
+                    <a>Release: </a>
+                    <a>Price: </a>
+                    <button href="" class="button">View</butto></div>
+            </div>
+            <div class="box box3">
+                <img src="https://media.gamestop.com/i/gamestop/10109333/The-Elder-Scrolls-V-Skyrim-Legendary-Edition?$pdp$" alt="">
+                <div>box3</div>
+            </div>
+            <div class="box box4">
                 <img src="" alt="">
-                <div>box2</div>
+                <div>box4</div>
+            </div>
+            <div class="box box5">
+                <img src="" alt="">
+                <div>box5</div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="contact">contact</div>
+    </footer>
 </body>
 </html>
