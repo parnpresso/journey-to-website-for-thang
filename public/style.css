@@ -7,8 +7,9 @@ body {
 main {
     padding-top: 100px;
 }
-header div {
-    color: white;    
+header a {
+    color: white; 
+    text-decoration: none;   
 }
 header {
     background-color: black;
@@ -19,6 +20,7 @@ header {
     justify-content: space-between;
 }
 .mid-bar {
+    color: white; 
     align-items: center;
     font-size: 40px;
     display: flex;   
@@ -120,4 +122,30 @@ header {
     margin: 4px 2px;
     cursor: pointer;
   }
+.pager {
+    width: 30%;
+    
 
+}
+.pageBox {
+    display: flex;
+     
+}
+.pageBox div {
+    text-align: center;
+}
+.pageBox ol {
+    display: flex;
+}
+.pageBox li {
+    background-color: rgb(76, 127, 175);
+    list-style-type: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.pageBox li:hover {
+    background-color: rgb(123, 150, 175);
+    color: black;
+}
