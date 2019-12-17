@@ -94,8 +94,7 @@ header {
 }
 .box img {
     width: 100%;
-    max-height: 150px;
-    
+    height: 150px;
 }
 .box div {
     font-size: 18px;
@@ -123,9 +122,39 @@ header {
     cursor: pointer;
   }
 .pager {
-    width: 30%;
-    
+    width: 1000%;
+    margin-left: 5%;
+}
+.pageBox {
+    display: flex;
+    align-items: center;
+}
+.page {
+    height: 16px;
 
+}
+.pageBox ol {
+    display: flex;
+    padding-left: 1%;
+}
+.pageBox li {
+    background-color: rgb(76, 127, 175);
+    list-style-type: none;
+    cursor: pointer; 
+    color: white;
+    padding: 10px;
+    margin: 5px;
+   
+}
+.pageBox li:hover {
+    background-color: rgb(123, 150, 175);
+    color: black;
+}
+.pageBox a {
+    color: white; 
+    text-decoration: none;  
+    display: block;
+   
 }
 .pageBox {
     display: flex;
